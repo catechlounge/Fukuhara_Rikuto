@@ -1,3 +1,5 @@
+# 動画
+https://drive.google.com/file/d/172NC-48Y6M37TxRK94b9-ASp2wVZYmtM/view?usp=sharing
 # データの前処理
 CIFAR-10データセットを使用して始めました。torchvisionというPythonライブラリを用いてデータの収集を行いました。データセットは10クラスの32x32ピクセルのカラー画像から構成されています。データ拡張の手法として、RandomAffineやRandomHorizontalFlipを用いてデータセットを増強し、モデルの汎用性とロバスト性を向上させました。さらに、Normalize変換を使用してデータを正規化し、モデルの学習を助けました。
 
